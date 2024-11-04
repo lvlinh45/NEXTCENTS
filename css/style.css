@@ -1,0 +1,41 @@
+* {
+    /* reset CSS */
+    margin: 0;
+    padding: 0;
+}
+/* KHAI BAOS BIẾN HTML */
+:root {
+    --primary-color: #4caf4f;
+    --secondary-color: #4d4d4d;
+}
+body {
+    font-family: "Inter", serif;
+}
+.btn {
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    padding: 10px 22px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 22px 130px;
+}
+/* CSS SELECTOR */
+.header-right ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 18px;
+}
+.header-right .header-anchor {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
